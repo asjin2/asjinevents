@@ -1,16 +1,10 @@
 import { Metadata } from 'next';
+import { useState } from 'react';
 import Image from 'next/image';
 
-export const metadata: Metadata = {
-  title: 'Wedding Decor Gallery - Asjin Events Nagercoil',
-  description: 'Browse our stunning wedding decor gallery featuring real weddings and events in Nagercoil and Kanyakumari district. Get inspired for your special day.',
-  openGraph: {
-    title: 'Wedding Decor Gallery - Asjin Events Nagercoil',
-    description: 'Browse our stunning wedding decor gallery featuring real weddings and events in Nagercoil.',
-  },
-};
+function Gallery() {
+  const [activeCategory, setActiveCategory] = useState('All');
 
-export default function Gallery() {
   const categories = [
     'All',
     'Wedding Decorations',
@@ -90,8 +84,9 @@ export default function Gallery() {
             {categories.map((category, index) => (
               <button
                 key={index}
+                onClick={() => setActiveCategory(category)}
                 className={`px-6 py-2 rounded-full transition-colors duration-300 ${
-                  index === 0 
+                  activeCategory === category
                     ? 'bg-purple-600 text-white' 
                     : 'bg-white text-gray-600 hover:bg-purple-100'
                 }`}
@@ -107,7 +102,9 @@ export default function Gallery() {
       <section className="py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {galleryImages.map((image, index) => (
+            {galleryImages
+              .filter(image => activeCategory === 'All' || image.category === activeCategory)
+              .map((image, index) => (
               <div 
                 key={index} 
                 className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300"
@@ -155,4 +152,7 @@ export default function Gallery() {
       </section>
     </div>
   );
+'use client';
 }
+
+export default Gallery;

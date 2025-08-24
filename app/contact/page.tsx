@@ -17,7 +17,24 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success('Thank you for your message! We will contact you soon.');
+    
+    // Create WhatsApp message
+    const message = `*New Contact Form Submission*
+
+*Name:* ${formData.name}
+*Phone:* ${formData.phone}
+*Email:* ${formData.email}
+*Event Date:* ${formData.eventDate || 'Not specified'}
+*Event Type:* ${formData.eventType || 'Not specified'}
+*Message:* ${formData.message || 'No additional message'}
+
+Please contact this customer for wedding decoration services.`;
+
+    // Open WhatsApp with the message
+    const whatsappUrl = `https://wa.me/918903821128?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+    
+    toast.success('Redirecting to WhatsApp... We will contact you soon!');
     setFormData({
       name: '',
       phone: '',

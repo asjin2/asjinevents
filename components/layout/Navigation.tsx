@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X, Heart } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,13 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <Heart className="h-8 w-8 text-purple-600" />
+            <Image
+              src="/logo.svg"
+              alt="Asjin Events Logo"
+              width={32}
+              height={32}
+              className="h-8 w-8"
+            />
             <span className="font-bold text-xl text-gray-900">Asjin Events</span>
           </Link>
 

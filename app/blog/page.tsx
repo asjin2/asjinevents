@@ -1,18 +1,12 @@
 import { Metadata } from 'next';
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Calendar, Clock, User } from 'lucide-react';
 
-export const metadata: Metadata = {
-  title: 'Wedding Planning Blog - Tips & Ideas | Asjin Events',
-  description: 'Get expert wedding planning tips, decoration ideas, and event insights from Asjin Events. Your guide to planning the perfect wedding in Nagercoil and Kanyakumari district.',
-  openGraph: {
-    title: 'Wedding Planning Blog - Tips & Ideas | Asjin Events',
-    description: 'Expert wedding planning tips and decoration ideas from Nagercoil\'s premier event management company.',
-  },
-};
+function Blog() {
+  const [activeCategory, setActiveCategory] = useState('All');
 
-export default function Blog() {
   const blogPosts = [
     {
       id: 1,
@@ -100,8 +94,9 @@ export default function Blog() {
             {categories.map((category, index) => (
               <button
                 key={index}
+                onClick={() => setActiveCategory(category)}
                 className={`px-6 py-2 rounded-full transition-colors duration-300 ${
-                  index === 0 
+                  activeCategory === category
                     ? 'bg-purple-600 text-white' 
                     : 'bg-white text-gray-600 hover:bg-purple-100 border border-gray-200'
                 }`}
@@ -117,7 +112,9 @@ export default function Blog() {
       <section className="py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {blogPosts.map((post) => (
+            {blogPosts
+              .filter(post => activeCategory === 'All' || post.category === activeCategory)
+              .map((post) => (
               <article key={post.id} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
                 <div className="relative">
                   <Image
@@ -200,4 +197,7 @@ export default function Blog() {
       </section>
     </div>
   );
+'use client';
 }
+
+export default Blog;
