@@ -1,6 +1,5 @@
 'use client';
 
-import { Metadata } from 'next';
 import { useState } from 'react';
 import { MapPin, Phone, Mail, Clock, Instagram, Facebook, Youtube } from 'lucide-react';
 import { toast } from 'sonner';
