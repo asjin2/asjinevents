@@ -1,3 +1,5 @@
+'use client';
+
 import { Metadata } from 'next';
 import { useState } from 'react';
 import Image from 'next/image';
@@ -197,7 +199,6 @@ function Blog() {
       </section>
     </div>
   );
-'use client';
 }
 
 export default Blog;
