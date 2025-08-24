@@ -191,4 +191,14 @@ function Blog() {
               placeholder="Enter your email"
               className="flex-1 px-4 py-3 rounded-full text-gray-900"
             />
+            <button className="bg-white text-purple-600 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors duration-300">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
 export default Blog;
