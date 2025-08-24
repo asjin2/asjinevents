@@ -22,47 +22,47 @@ export default function Gallery() {
 
   const galleryImages = [
     {
-      src: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg',
+      src: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756058622/fc15a08055e0e0b6eb16e343dc0a9d31_fdvp7v.jpg',
       alt: 'Elegant wedding mandap decoration by Asjin Events in Nagercoil',
       category: 'Mandap Designs'
     },
     {
-      src: 'https://images.pexels.com/photos/1128797/pexels-photo-1128797.jpeg',
+      src: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756058724/01d6569b7ecb5c4d08fe57c22a43a583_sufr2g.jpg',
       alt: 'Beautiful floral centerpiece arrangement for wedding reception',
       category: 'Floral Arrangements'
     },
     {
-      src: 'https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg',
+      src: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756059253/download_9_vuouoz.jpg',
       alt: 'Stunning wedding reception decor with elegant lighting',
       category: 'Reception Decor'
     },
     {
-      src: 'https://images.pexels.com/photos/3585810/pexels-photo-3585810.jpeg',
+      src: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756061172/abafb0025c6e0b9eff9b6c991cf0d243_flvf36.jpg',
       alt: 'Traditional south Indian wedding decoration in Nagercoil',
       category: 'Wedding Decorations'
     },
     {
-      src: 'https://images.pexels.com/photos/1729797/pexels-photo-1729797.jpeg',
+      src: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756060656/58a1b38ccc32d82f86166e8a179dca8f_jwhrfh.jpg',
       alt: 'Colorful mehendi ceremony decoration setup',
       category: 'Pre-Wedding Events'
     },
     {
-      src: 'https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg',
+      src: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756059706/download_10_eybdwd.jpg',
       alt: 'Romantic wedding backdrop with fairy lights',
       category: 'Wedding Decorations'
     },
     {
-      src: 'https://images.pexels.com/photos/1024984/pexels-photo-1024984.jpeg',
+      src: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756060542/download_11_yzxj3d.jpg',
       alt: 'Grand mandap with intricate floral designs',
       category: 'Mandap Designs'
     },
     {
-      src: 'https://images.pexels.com/photos/3585800/pexels-photo-3585800.jpeg',
+      src: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756060255/Felt_the_love_in_the_air_besides_the_beachy_waves_from_the_couple_who_doesn_t_belong_here_A_tropical_feel_wedding_of_beautiful_revashah28_Makeup_and_hair__makeupbymansigupta_and_team_Location__thezurigoa_Photog_bbobjd.jpg',
       alt: 'Elegant table setting for wedding reception',
       category: 'Reception Decor'
     },
     {
-      src: 'https://images.pexels.com/photos/1729799/pexels-photo-1729799.jpeg',
+      src: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756061267/Jehana_Jabbar_Mishra_and_Kanishk_Mishra_Amaara_Farms_Delhi_nwkvko.jpg',
       alt: 'Fresh flower arrangements for wedding ceremony',
       category: 'Floral Arrangements'
     }

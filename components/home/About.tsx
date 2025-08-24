@@ -13,7 +13,7 @@ export default function About() {
                 About <span className="text-purple-600">Asjin Events</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                Since 2016, Asjin Events has been Nagercoil's premier wedding decor and event 
+                Since 2014, Asjin Events has been Nagercoil's premier wedding decor and event 
                 management company, creating magical celebrations that reflect the unique personality 
                 and vision of each couple.
               </p>
@@ -29,7 +29,7 @@ export default function About() {
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-100 rounded-full mb-3">
                   <Award className="h-8 w-8 text-purple-600" />
                 </div>
-                <div className="text-2xl font-bold text-gray-900">8+</div>
+                <div className="text-2xl font-bold text-gray-900">10+</div>
                 <div className="text-gray-600">Years Experience</div>
               </div>
               <div className="text-center">
@@ -60,7 +60,7 @@ export default function About() {
 
           <div className="relative">
             <Image
-              src="https://images.pexels.com/photos/3585810/pexels-photo-3585810.jpeg"
+              src="https://res.cloudinary.com/dszxkjpev/image/upload/v1756061456/download_12_lyoc4v.jpg"
               alt="Asjin Events team creating beautiful wedding decorations in Nagercoil"
               width={600}
               height={500}

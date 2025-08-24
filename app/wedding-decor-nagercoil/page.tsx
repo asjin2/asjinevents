@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Wedding Decor in Nagercoil - Premium Event Decoration Services',
     description: 'Professional wedding decor services in Nagercoil with mandap decorations, floral arrangements, and complete event styling.',
-    url: 'https://asjinevents.com/wedding-decor-nagercoil',
+    url: 'https://asjinevents.xyz/wedding-decor-nagercoil',
   },
 };
 
@@ -171,7 +171,7 @@ export default function WeddingDecorNagercoil() {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">8+ Years Experience</h3>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">10+ Years Experience</h3>
                     <p className="text-gray-600">Extensive experience in wedding decorations across Nagercoil and Kanyakumari district</p>
                   </div>
                 </div>

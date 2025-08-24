@@ -2,15 +2,15 @@ export function generateLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://asjinevents.com",
+    "@id": "https://asjinevents.xyz",
     "name": "Asjin Events",
     "alternateName": "Asjin Events Wedding Decor",
     "description": "Premium wedding decor and event management services in Nagercoil, Kanyakumari District. Professional mandap decorations, floral arrangements, and complete event planning.",
-    "url": "https://asjinevents.com",
+    "url": "https://asjinevents.xyz",
     "telephone": "+91-8903821128",
     "priceRange": "₹₹₹",
     "image": [
-      "https://asjinevents.com/og-image.jpg"
+      "https://asjinevents.xyz/og-image.jpg"
     ],
     "address": {
       "@type": "PostalAddress",
@@ -112,17 +112,17 @@ export function generateWeddingDecorSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": "https://asjinevents.com/wedding-decor-nagercoil",
+    "@id": "https://asjinevents.xyz/wedding-decor-nagercoil",
     "name": "Wedding Decor in Nagercoil",
     "alternateName": "Wedding Decoration Services Nagercoil",
     "description": "Professional wedding decor services in Nagercoil, Kanyakumari District. Mandap decorations, floral arrangements, stage setups, and complete event styling for Tamil and contemporary weddings.",
-    "url": "https://asjinevents.com/wedding-decor-nagercoil",
+    "url": "https://asjinevents.xyz/wedding-decor-nagercoil",
     "category": "Wedding Decoration Service",
     "provider": {
       "@type": "LocalBusiness",
       "name": "Asjin Events",
       "telephone": "+91-8903821128",
-      "url": "https://asjinevents.com"
+      "url": "https://asjinevents.xyz"
     },
     "areaServed": [
       {

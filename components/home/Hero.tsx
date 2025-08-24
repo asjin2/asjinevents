@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg"
+          src="https://res.cloudinary.com/dszxkjpev/image/upload/v1756055931/2151481511_bskp0a.jpg"
           alt="Elegant wedding decoration by Asjin Events in Nagercoil"
           fill
           className="object-cover"
@@ -49,20 +49,13 @@ export default function Hero() {
             <div className="text-sm md:text-base text-purple-100">Happy Couples</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-purple-300">8+</div>
+            <div className="text-3xl md:text-4xl font-bold text-purple-300">10+</div>
             <div className="text-sm md:text-base text-purple-100">Years Experience</div>
           </div>
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-purple-300">1000+</div>
             <div className="text-sm md:text-base text-purple-100">Events Completed</div>
           </div>
-        </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-white rounded-full mt-2"></div>
         </div>
       </div>
     </section>

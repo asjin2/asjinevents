@@ -80,7 +80,7 @@ export default function Testimonials() {
               <div className="text-gray-600">Happy Couples</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-purple-600">8+</div>
+              <div className="text-3xl font-bold text-purple-600">10+</div>
               <div className="text-gray-600">Years Experience</div>
             </div>
           </div>

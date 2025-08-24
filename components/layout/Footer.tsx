@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
             <p className="text-gray-300 leading-relaxed">
               Premium wedding decor and event management services in Nagercoil. 
-              Creating magical moments across Kanyakumari district since 2016.
+              Creating magical moments across Kanyakumari district since 2014.
             </p>
             <div className="flex space-x-4">
               <a 

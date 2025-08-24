@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://asjinevents.com/sitemap.xml',
+    sitemap: 'https://asjinevents.xyz/sitemap.xml',
   };
 }

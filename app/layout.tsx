@@ -9,7 +9,7 @@ import { Toaster } from '@/components/ui/sonner';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://asjinevents.com'),
+  metadataBase: new URL('https://asjinevents.xyz'),
   title: {
     default: 'Asjin Events - Wedding Decor & Event Management in Nagercoil',
     template: '%s | Asjin Events'
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://asjinevents.com',
+    url: 'https://asjinevents.xyz',
     title: 'Asjin Events - Wedding Decor & Event Management in Nagercoil',
     description: 'Premium wedding decor and event management services in Nagercoil, Kanyakumari District.',
     siteName: 'Asjin Events',
@@ -65,7 +65,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://asjinevents.com" />
+        <link rel="canonical" href="https://asjinevents.xyz" />
         <meta name="geo.region" content="IN-TN" />
         <meta name="geo.placename" content="Nagercoil" />
         <meta name="geo.position" content="8.1774;77.4349" />

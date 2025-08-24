@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Heart, Sparkles, Camera, Utensils, Music, Flower2 } from 'lucide-react';
+import { Heart, Sparkles, Camera, Utensils, Music, Flower2, Car, Tent } from 'lucide-react';
 
 export default function Services() {
   const services = [
@@ -8,37 +8,37 @@ export default function Services() {
       icon: Heart,
       title: 'Wedding Decorations',
       description: 'Complete wedding decor including mandap, stage, and venue decorations',
-      image: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg'
+      image: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756056180/Breathtaking_Wedding_Stage_Designs_1_k6ycgv.jpg'
     },
     {
       icon: Flower2,
       title: 'Floral Arrangements',
       description: 'Exquisite floral decorations using fresh flowers for all occasions',
-      image: 'https://images.pexels.com/photos/1128797/pexels-photo-1128797.jpeg'
+      image: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756058153/flowerss_qlqby1.jpg'
     },
     {
-      icon: Sparkles,
+      icon: Tent,
       title: 'Event Planning',
       description: 'Complete event management from planning to execution',
-      image: 'https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg'
+      image: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756056741/Reception_idea_tmv8rp.jpg'
     },
     {
       icon: Camera,
       title: 'Pre-Wedding Events',
       description: 'Decoration services for engagement, sangeet, and mehendi ceremonies',
-      image: 'https://images.pexels.com/photos/3585810/pexels-photo-3585810.jpeg'
+      image: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756057081/Beautiful_Hindu_Wedding_Couple_Photos___Guruvayoor_Temple_Wedding___Couple___Bridal_Makeup_uudiso.jpg'
     },
     {
       icon: Utensils,
       title: 'Reception Decor',
       description: 'Elegant reception decorations and dining arrangements',
-      image: 'https://images.pexels.com/photos/1729797/pexels-photo-1729797.jpeg'
+      image: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756057226/Royal_Reverie___The_Reception___Jagmandir_Island_Palace_Udaipur_oajv4s.jpg'
     },
     {
-      icon: Music,
-      title: 'Corporate Events',
-      description: 'Professional corporate event decoration and management',
-      image: 'https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg'
+      icon: Car,
+      title: 'Car Decorations',
+      description: 'Elegant car decorations for luxury cars in Nagercoil',
+      image: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756057589/download_8_ec7vkg.jpg'
     }
   ];
 

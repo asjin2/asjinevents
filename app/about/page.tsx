@@ -16,7 +16,7 @@ export default function About() {
     { icon: Heart, label: 'Happy Couples', value: '500+' },
     { icon: Calendar, label: 'Events Completed', value: '1000+' },
     { icon: Users, label: 'Team Members', value: '20+' },
-    { icon: Award, label: 'Years Experience', value: '8+' },
+    { icon: Award, label: 'Years Experience', value: '10+' },
   ];
 
   return (
@@ -29,7 +29,7 @@ export default function About() {
               About <span className="text-purple-600">Asjin Events</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Creating magical moments and unforgettable celebrations in Nagercoil and across Kanyakumari district since 2016.
+              Creating magical moments and unforgettable celebrations in Nagercoil and across Kanyakumari district since 2014.
             </p>
           </div>
 
@@ -54,7 +54,7 @@ export default function About() {
             </div>
             <div className="relative">
               <Image
-                src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg"
+                src="https://res.cloudinary.com/dszxkjpev/image/upload/v1756061456/download_12_lyoc4v.jpg"
                 alt="Asjin Events team creating beautiful wedding decorations in Nagercoil"
                 width={600}
                 height={400}
