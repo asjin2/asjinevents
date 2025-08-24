@@ -1,8 +1,9 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Calendar, Clock, User, ArrowLeft, Share2 } from 'lucide-react';
+import { Calendar, Clock, User, ArrowLeft } from 'lucide-react';
 import { notFound } from 'next/navigation';
+import ShareButton from '@/components/blog/ShareButton';
 
 // This would typically come from a CMS or database
 const blogPosts = [
@@ -134,20 +135,6 @@ export default function BlogPost({ params }: { params: { id: string } }) {
     notFound();
   }
 
-  const handleShare = () => {
-    if (navigator.share) {
-      navigator.share({
-        title: post.title,
-        text: post.excerpt,
-        url: window.location.href,
-      });
-    } else {
-      // Fallback to copying URL
-      navigator.clipboard.writeText(window.location.href);
-      alert('Link copied to clipboard!');
-    }
-  };
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-50 to-white">
       {/* Hero Section */}
@@ -192,13 +179,10 @@ export default function BlogPost({ params }: { params: { id: string } }) {
               <p className="text-xl text-gray-600">
                 {post.excerpt}
               </p>
-              <button
-                onClick={handleShare}
-                className="flex items-center space-x-2 text-purple-600 hover:text-purple-700 transition-colors duration-300"
-              >
-                <Share2 className="h-5 w-5" />
-                <span>Share</span>
-              </button>
+              <ShareButton 
+                title={post.title}
+                excerpt={post.excerpt}
+              />
             </div>
           </div>
 
