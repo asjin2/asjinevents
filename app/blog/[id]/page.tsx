@@ -101,6 +101,12 @@ const blogPosts = [
   }
 ];
 
+export async function generateStaticParams() {
+  return blogPosts.map((post) => ({
+    id: post.id.toString(),
+  }));
+}
+
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const post = blogPosts.find(p => p.id === parseInt(params.id));
   
