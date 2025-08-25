@@ -1,4 +1,5 @@
-import { Metadata } from 'next';
+'use client';
+
 import { useState } from 'react';
 import Image from 'next/image';
 
@@ -152,7 +153,6 @@ function Gallery() {
       </section>
     </div>
   );
-'use client';
 }
 
 export default Gallery;
