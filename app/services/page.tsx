@@ -49,7 +49,7 @@ export default function Services() {
       features: ['Table Settings', 'Lighting Design', 'Backdrop Arrangements', 'Dance Floor Setup']
     },
     {
-      icon: Music,
+      icon: Car,
       title: 'Car Decorations',
       description: 'Elegant car decorations for luxury cars in Nagercoil',
       image: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756057589/download_8_ec7vkg.jpg',
