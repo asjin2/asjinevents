@@ -271,17 +271,7 @@ Please contact this customer for wedding decoration services.`;
 
           <div className="bg-white p-4 rounded-2xl shadow-lg">
             <div className="aspect-w-16 aspect-h-9">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1974.5216427147955!2d77.3010467!3d8.1983943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d4d656a7b7e81f%3A0x2603a640b2a7dc1b!2sAsjin%20Events!5e0!3m2!1sen!2sin!4v1756101368738!5m2!1sen!2sin"
-                width="100%"
-                height="400"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Asjin Events service area - Nagercoil, Kanyakumari District"
-                className="rounded-xl"
-              ></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1974.5216427147955!2d77.3010467!3d8.1983943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d4d656a7b7e81f%3A0x2603a640b2a7dc1b!2sAsjin%20Events!5e0!3m2!1sen!2sin!4v1756101368738!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
