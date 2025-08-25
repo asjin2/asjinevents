@@ -272,7 +272,7 @@ Please contact this customer for wedding decoration services.`;
           <div className="bg-white p-4 rounded-2xl shadow-lg">
             <div className="aspect-w-16 aspect-h-9">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125663.42369367826!2d77.36778507885742!3d8.177397299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f0c84e1b1b5d%3A0x6f2e9b4c8b8e8b1b!2sNagercoil%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1704112800000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1974.5216427147955!2d77.3010467!3d8.1983943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d4d656a7b7e81f%3A0x2603a640b2a7dc1b!2sAsjin%20Events!5e0!3m2!1sen!2sin!4v1756101368738!5m2!1sen!2sin"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
