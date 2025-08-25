@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
-import { Heart, Sparkles, Camera, Utensils, Music, Flower2 } from 'lucide-react';
+import { Heart, Sparkles, Camera, Utensils, Music, Flower2, Car } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Wedding Decor Services - Asjin Events Nagercoil',
