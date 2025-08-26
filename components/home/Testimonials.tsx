@@ -29,20 +29,20 @@ export default function Testimonials() {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
             What Our <span className="text-purple-600">Clients Say</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Don't just take our word for it. Here's what our happy couples 
             across Kanyakumari district have to say about their experience.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {testimonials.map((testimonial, index) => (
             <div 
               key={index} 
-              className="bg-purple-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="bg-purple-50 p-4 sm:p-6 lg:p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               <div className="flex mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
@@ -50,7 +50,7 @@ export default function Testimonials() {
                 ))}
               </div>
               
-              <p className="text-gray-700 mb-6 leading-relaxed">
+              <p className="text-sm sm:text-base text-gray-700 mb-4 sm:mb-6 leading-relaxed">
                 "{testimonial.text}"
               </p>
               
@@ -66,7 +66,7 @@ export default function Testimonials() {
 
         {/* Trust Indicators */}
         <div className="mt-16 text-center">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 max-w-3xl mx-auto px-4">
             <div>
               <div className="text-3xl font-bold text-purple-600">4.9/5</div>
               <div className="text-gray-600">Google Rating</div>

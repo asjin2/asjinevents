@@ -68,10 +68,10 @@ function Gallery() {
       {/* Hero Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 mb-4 sm:mb-6">
             Our <span className="text-purple-600">Gallery</span>
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12">
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8 sm:mb-12 px-4">
             Explore our portfolio of stunning wedding decorations and event setups 
             across Nagercoil and Kanyakumari district.
           </p>
@@ -81,7 +81,7 @@ function Gallery() {
       {/* Gallery Filter */}
       <section className="py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-8 sm:mb-12 px-2">
             {categories.map((category, index) => (
               <button
                 key={index}
@@ -90,7 +90,7 @@ function Gallery() {
                   activeCategory === category
                     ? 'bg-purple-600 text-white' 
                     : 'bg-white text-gray-600 hover:bg-purple-100'
-                }`}
+                } text-xs sm:text-sm px-3 sm:px-6 py-1 sm:py-2`}
               >
                 {category}
               </button>
@@ -102,7 +102,7 @@ function Gallery() {
       {/* Gallery Grid */}
       <section className="py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {galleryImages
               .filter(image => activeCategory === 'All' || image.category === activeCategory)
               .map((image, index) => (
@@ -115,7 +115,7 @@ function Gallery() {
                   alt={image.alt}
                   width={400}
                   height={300}
-                  className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-60 sm:h-80 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-4 left-4 text-white">
@@ -131,20 +131,20 @@ function Gallery() {
       {/* CTA Section */}
       <section className="py-16 bg-purple-600 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold mb-4">Ready to Create Your Dream Wedding?</h2>
-          <p className="text-xl mb-8">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-4">Ready to Create Your Dream Wedding?</h2>
+          <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8">
             Let us transform your vision into a beautiful reality. Contact us today for a consultation.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
             <a 
               href="tel:+918903821128" 
-              className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300"
+              className="w-full sm:w-auto bg-white text-purple-600 px-6 sm:px-8 py-3 rounded-full font-semibold text-sm sm:text-base hover:bg-gray-100 transition-colors duration-300 text-center"
             >
               Call Now
             </a>
             <a 
               href="https://wa.me/918903821128" 
-              className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-purple-600 transition-colors duration-300"
+              className="w-full sm:w-auto bg-transparent border-2 border-white text-white px-6 sm:px-8 py-3 rounded-full font-semibold text-sm sm:text-base hover:bg-white hover:text-purple-600 transition-colors duration-300 text-center"
             >
               WhatsApp
             </a>

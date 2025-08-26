@@ -33,16 +33,16 @@ export default function Gallery() {
     <section className="py-20 bg-purple-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
             Our <span className="text-purple-600">Gallery</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Explore our portfolio of stunning wedding decorations and celebrations 
             across Nagercoil and Kanyakumari district.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {galleryImages.map((image, index) => (
             <div 
               key={index} 
@@ -53,7 +53,7 @@ export default function Gallery() {
                 alt={image.alt}
                 width={400}
                 height={300}
-                className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
+                className="w-full h-60 sm:h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-white">
@@ -67,7 +67,7 @@ export default function Gallery() {
         <div className="text-center mt-12">
           <Link
             href="/gallery"
-            className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg inline-block"
+            className="bg-purple-600 hover:bg-purple-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg inline-block"
           >
             View Full Gallery
           </Link>

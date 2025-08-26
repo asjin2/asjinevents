@@ -46,22 +46,22 @@ export default function Services() {
     <section className="py-20 bg-gradient-to-b from-white to-purple-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
             Our <span className="text-purple-600">Services</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             From intimate ceremonies to grand celebrations, we provide comprehensive 
             event decoration and planning services across Nagercoil and Kanyakumari district.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {services.map((service, index) => (
             <div 
               key={index} 
               className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden"
             >
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-40 sm:h-48 overflow-hidden">
                 <Image
                   src={service.image}
                   alt={`${service.title} by Asjin Events`}
@@ -74,7 +74,7 @@ export default function Services() {
                 </div>
               </div>
               
-              <div className="p-6">
+              <div className="p-4 sm:p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-purple-600 transition-colors duration-300">
                   {service.title}
                 </h3>
@@ -89,7 +89,7 @@ export default function Services() {
         <div className="text-center mt-12">
           <Link
             href="/services"
-            className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg inline-block"
+            className="bg-purple-600 hover:bg-purple-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg inline-block"
           >
             View All Services
           </Link>

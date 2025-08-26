@@ -56,10 +56,10 @@ Please contact this customer for wedding decoration services.`;
       {/* Hero Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 mb-4 sm:mb-6">
             Contact <span className="text-purple-600">Asjin Events</span>
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12">
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8 sm:mb-12 px-4">
             Ready to plan your dream wedding or event? Get in touch with us today 
             for a free consultation and quote.
           </p>
@@ -69,52 +69,52 @@ Please contact this customer for wedding decoration services.`;
       {/* Contact Info & Form */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Contact Information */}
-            <div className="space-y-8">
+            <div className="space-y-6 sm:space-y-8">
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">Get In Touch</h2>
-                <p className="text-lg text-gray-600 mb-8">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Get In Touch</h2>
+                <p className="text-base sm:text-lg text-gray-600 mb-6 sm:mb-8">
                   We're here to help make your special day unforgettable. 
                   Contact us through any of the following ways:
                 </p>
               </div>
 
-              <div className="space-y-6">
+              <div className="space-y-4 sm:space-y-6">
                 <div className="flex items-center space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                    <Phone className="h-6 w-6 text-purple-600" />
+                  <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                    <Phone className="h-5 w-5 sm:h-6 sm:w-6 text-purple-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900">Phone & WhatsApp</h3>
-                    <p className="text-gray-600">+91 8903821128</p>
+                    <h3 className="font-semibold text-sm sm:text-base text-gray-900">Phone & WhatsApp</h3>
+                    <p className="text-sm sm:text-base text-gray-600">+91 8903821128</p>
                   </div>
                 </div>
 
                 <div className="flex items-center space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                    <MapPin className="h-6 w-6 text-purple-600" />
+                  <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                    <MapPin className="h-5 w-5 sm:h-6 sm:w-6 text-purple-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900">Service Area</h3>
-                    <p className="text-gray-600">Nagercoil & Kanyakumari District</p>
+                    <h3 className="font-semibold text-sm sm:text-base text-gray-900">Service Area</h3>
+                    <p className="text-sm sm:text-base text-gray-600">Nagercoil & Kanyakumari District</p>
                   </div>
                 </div>
 
                 <div className="flex items-center space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                    <Clock className="h-6 w-6 text-purple-600" />
+                  <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                    <Clock className="h-5 w-5 sm:h-6 sm:w-6 text-purple-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900">Business Hours</h3>
-                    <p className="text-gray-600">9:00 AM - 8:00 PM (Daily)</p>
+                    <h3 className="font-semibold text-sm sm:text-base text-gray-900">Business Hours</h3>
+                    <p className="text-sm sm:text-base text-gray-600">9:00 AM - 8:00 PM (Daily)</p>
                   </div>
                 </div>
               </div>
 
               {/* Social Media */}
               <div>
-                <h3 className="font-semibold text-gray-900 mb-4">Follow Us</h3>
+                <h3 className="font-semibold text-sm sm:text-base text-gray-900 mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
                   <a 
                     href="https://instagram.com/asjin_events" 
@@ -143,10 +143,10 @@ Please contact this customer for wedding decoration services.`;
 
             {/* Contact Form */}
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h3>
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Send us a Message</h3>
               
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-6">
+              <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
+                <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                       Full Name *
@@ -158,7 +158,7 @@ Please contact this customer for wedding decoration services.`;
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
                       placeholder="Your full name"
                     />
                   </div>
@@ -174,7 +174,7 @@ Please contact this customer for wedding decoration services.`;
                       value={formData.phone}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
                       placeholder="Your phone number"
                     />
                   </div>
@@ -190,12 +190,12 @@ Please contact this customer for wedding decoration services.`;
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
                     placeholder="your.email@example.com"
                   />
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
                   <div>
                     <label htmlFor="eventDate" className="block text-sm font-medium text-gray-700 mb-2">
                       Event Date
@@ -206,7 +206,7 @@ Please contact this customer for wedding decoration services.`;
                       name="eventDate"
                       value={formData.eventDate}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
                     />
                   </div>
 
@@ -219,7 +219,7 @@ Please contact this customer for wedding decoration services.`;
                       name="eventType"
                       value={formData.eventType}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
                     >
                       <option value="">Select event type</option>
                       <option value="wedding">Wedding</option>
@@ -242,14 +242,14 @@ Please contact this customer for wedding decoration services.`;
                     value={formData.message}
                     onChange={handleChange}
                     rows={4}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
                     placeholder="Tell us about your event requirements..."
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-purple-600 text-white py-4 px-6 rounded-lg font-semibold hover:bg-purple-700 transition-colors duration-300"
+                  className="w-full bg-purple-600 text-white py-3 sm:py-4 px-4 sm:px-6 rounded-lg font-semibold text-sm sm:text-base hover:bg-purple-700 transition-colors duration-300"
                 >
                   Send Message
                 </button>

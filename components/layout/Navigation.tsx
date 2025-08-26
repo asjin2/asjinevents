@@ -23,7 +23,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center space-x-2 flex-shrink-0">
             <Image
               src="/logo.svg"
               alt="Asjin Events Logo"
@@ -31,7 +31,7 @@ export default function Navigation() {
               height={32}
               className="h-8 w-8"
             />
-            <span className="font-bold text-xl text-gray-900">Asjin Events</span>
+            <span className="font-bold text-lg sm:text-xl text-gray-900">Asjin Events</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -51,7 +51,7 @@ export default function Navigation() {
           <div className="hidden lg:flex items-center space-x-4">
             <a
               href="tel:+918903821128"
-              className="bg-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-purple-700 transition-colors duration-300"
+              className="bg-purple-600 text-white px-4 sm:px-6 py-2 rounded-full font-semibold text-sm sm:text-base hover:bg-purple-700 transition-colors duration-300"
             >
               Call Now
             </a>
@@ -71,7 +71,7 @@ export default function Navigation() {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="lg:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t shadow-lg">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
@@ -85,7 +85,7 @@ export default function Navigation() {
               <div className="px-3 py-2">
                 <a
                   href="tel:+918903821128"
-                  className="block bg-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-purple-700 transition-colors duration-300 text-center"
+                  className="block bg-purple-600 text-white px-4 py-2 rounded-full font-semibold text-sm hover:bg-purple-700 transition-colors duration-300 text-center"
                 >
                   Call Now
                 </a>
