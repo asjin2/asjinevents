@@ -18,13 +18,13 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          Create <span className="text-purple-300">Magical</span><br />
-          Wedding Moments
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight" itemProp="headline">
+          Best <span className="text-purple-300">Wedding Decorators</span><br />
+          in Nagercoil
         </h1>
-        <p className="text-xl md:text-2xl mb-8 text-purple-100 leading-relaxed">
-          Premier wedding decor and event management in Nagercoil.<br />
-          Transforming your special day into an unforgettable celebration.
+        <p className="text-xl md:text-2xl mb-8 text-purple-100 leading-relaxed" itemProp="description">
+          #1 Wedding Decor & Event Management Company in Kanyakumari District<br />
+          ⭐ 500+ Happy Couples | Premium Mandap Decorations | Call +91-8903821128
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">

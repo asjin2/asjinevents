@@ -4,13 +4,22 @@ import { Star, MapPin, Phone, Clock, CheckCircle } from 'lucide-react';
 import { generateWeddingDecorSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
-  title: 'Wedding Decor in Nagercoil - Premium Event Decoration Services | Asjin Events',
-  description: 'Professional wedding decor services in Nagercoil, Kanyakumari District. Mandap decorations, floral arrangements, and complete event styling. Call +91 8903821128 for bookings.',
-  keywords: 'wedding decor Nagercoil, wedding decorators Nagercoil, mandap decoration Nagercoil, wedding planners Kanyakumari, event decorators Tamil Nadu, marriage decoration Nagercoil',
+  title: 'Wedding Decor Nagercoil | Best Mandap Decorators Kanyakumari | Book Now +91-8903821128',
+  description: '🏆 #1 Wedding Decorators in Nagercoil | 500+ Weddings Done ✓ Mandap Decorations ✓ Floral Arrangements ✓ Stage Decor ✓ Car Decorations | Best Prices in Kanyakumari District | Free Quote',
+  keywords: 'wedding decor Nagercoil, wedding decorators Nagercoil, mandap decoration Nagercoil, wedding planners Kanyakumari, event decorators Tamil Nadu, marriage decoration Nagercoil, wedding stage decoration Nagercoil, floral arrangements wedding Nagercoil, reception decoration Kanyakumari, pre wedding events decoration, sangeet decoration Nagercoil, mehendi decoration, engagement decoration, car decoration wedding Nagercoil, wedding venue decoration, traditional wedding decor Tamil Nadu, modern wedding decoration Nagercoil, best wedding decorators Kanyakumari district, affordable wedding decoration Nagercoil, premium wedding decor services, wedding decoration packages Nagercoil, bridal car decoration, entrance decoration wedding, gate decoration wedding, lighting decoration wedding, backdrop decoration, centerpiece arrangements, fresh flower decoration, artificial flower decoration, balloon decoration wedding, theme based wedding decoration',
   openGraph: {
-    title: 'Wedding Decor in Nagercoil - Premium Event Decoration Services',
-    description: 'Professional wedding decor services in Nagercoil with mandap decorations, floral arrangements, and complete event styling.',
+    title: 'Wedding Decor Nagercoil | Best Mandap Decorators Kanyakumari | Book Now',
+    description: '🏆 #1 Wedding Decorators in Nagercoil | 500+ Weddings Done | Best Prices in Kanyakumari District',
     url: 'https://asjinevents.xyz/wedding-decor-nagercoil',
+    type: 'website',
+    images: [
+      {
+        url: 'https://asjinevents.xyz/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Best Wedding Decorators in Nagercoil - Asjin Events'
+      }
+    ],
   },
 };
 
@@ -275,9 +284,10 @@ export default function WeddingDecorNagercoil() {
         {/* Contact CTA */}
         <section className="py-16 bg-purple-600 text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold mb-4">Ready to Book Your Wedding Decoration?</h2>
+            <h2 className="text-3xl font-bold mb-4">Book Best Wedding Decorators in Nagercoil Today!</h2>
             <p className="text-xl mb-8">
-              Contact Asjin Events today for a free consultation and quote for your wedding decoration in Nagercoil.
+              Get FREE consultation and quote from Nagercoil's #1 wedding decoration company. 
+              Call now for best prices and instant booking confirmation!
             </p>
             
             <div className="grid md:grid-cols-3 gap-8 mb-8">

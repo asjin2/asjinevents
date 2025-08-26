@@ -124,7 +124,10 @@ export default function Footer() {
         <div className="border-t border-gray-700 mt-12 pt-8 text-center">
           <p className="text-gray-400">
             © 2024 Asjin Events. All rights reserved. | 
-            <span className="text-purple-400"> Wedding Decor Specialists in Nagercoil</span>
+            <span className="text-purple-400"> Best Wedding Decorators in Nagercoil, Kanyakumari District</span>
+          </p>
+          <p className="text-sm text-gray-500 mt-2">
+            Keywords: Wedding Decor Nagercoil, Mandap Decoration, Event Decorators Kanyakumari, Marriage Decoration Services, Wedding Planners Tamil Nadu
           </p>
         </div>
       </div>

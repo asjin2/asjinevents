@@ -7,11 +7,22 @@ import Contact from '@/components/home/Contact';
 import { generateLocalBusinessSchema } from '@/lib/schema';
 
 export const metadata = {
-  title: 'Asjin Events - Premier Wedding Decor & Event Management in Nagercoil',
-  description: 'Transform your special moments with Asjin Events - Nagercoil\'s premier wedding decor and event management company. Serving Kanyakumari district with elegant decorations and professional planning.',
+  title: 'Wedding Decor Nagercoil | #1 Event Decorators Kanyakumari District | Asjin Events',
+  description: '⭐ Best Wedding Decorators in Nagercoil | 500+ Happy Couples ✓ Mandap Decorations ✓ Floral Arrangements ✓ Event Planning | Serving Kanyakumari District | Call +91-8903821128 for Free Quote',
+  keywords: 'wedding decor Nagercoil, wedding decorators Nagercoil, mandap decoration Nagercoil, wedding planners Kanyakumari, best wedding decorators, marriage decoration services, event decorators Tamil Nadu, wedding stage decoration, floral arrangements, reception decoration, pre wedding events decoration, sangeet decoration, mehendi decoration, engagement decoration, car decoration wedding, affordable wedding decoration Nagercoil, premium wedding decor services Kanyakumari district',
   openGraph: {
-    title: 'Asjin Events - Premier Wedding Decor & Event Management in Nagercoil',
-    description: 'Transform your special moments with elegant wedding decor and professional event management services in Nagercoil, Kanyakumari district.',
+    title: 'Wedding Decor Nagercoil | #1 Event Decorators Kanyakumari District | Asjin Events',
+    description: '⭐ Best Wedding Decorators in Nagercoil | 500+ Happy Couples | Mandap Decorations & Event Planning in Kanyakumari District',
+    url: 'https://asjinevents.xyz',
+    type: 'website',
+    images: [
+      {
+        url: 'https://asjinevents.xyz/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Asjin Events - Best Wedding Decorators in Nagercoil'
+      }
+    ],
   },
 };
 
