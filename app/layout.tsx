@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   category: 'Wedding Services',
   classification: 'Wedding Decoration and Event Management',
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon.ico',
-    apple: '/favicon.ico',
+    icon: '/logo.svg',
+    shortcut: '/logo.svg',
+    apple: '/logo.svg',
   },
   alternates: {
     canonical: 'https://asjinevents.xyz',

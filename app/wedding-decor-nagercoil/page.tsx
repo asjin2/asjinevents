@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://asjinevents.xyz/og-image.jpg',
+        url: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756176163/3661317587297717966_bbablz.jpg',
         width: 1200,
         height: 630,
         alt: 'Best Wedding Decorators in Nagercoil - Asjin Events'
@@ -121,7 +121,7 @@ export default function WeddingDecorNagercoil() {
 
               <div className="relative">
                 <Image
-                  src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg"
+                  src="https://res.cloudinary.com/dszxkjpev/image/upload/v1756176388/3661317587297717966_2_1_bgtpko.jpg"
                   alt="Professional wedding decor services in Nagercoil by Asjin Events - mandap decorations and floral arrangements"
                   width={600}
                   height={400}
@@ -224,7 +224,7 @@ export default function WeddingDecorNagercoil() {
 
               <div className="relative">
                 <Image
-                  src="https://images.pexels.com/photos/3585810/pexels-photo-3585810.jpeg"
+                  src="https://res.cloudinary.com/dszxkjpev/image/upload/v1756178106/A_Garden_of_Delights_1_kxelph.jpg"
                   alt="Why choose Asjin Events for wedding decorations in Nagercoil - quality and expertise"
                   width={500}
                   height={400}

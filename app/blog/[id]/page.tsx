@@ -32,7 +32,7 @@ const blogPosts = [
       <h2>Conclusion</h2>
       <p>These trends reflect the evolving preferences of modern couples who want to honor tradition while expressing their unique style. At Asjin Events, we help couples incorporate these trends seamlessly into their wedding celebrations across Nagercoil and Kanyakumari district.</p>
     `,
-    image: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg',
+    image: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756318960/wed_3_extvds.jpg',
     author: 'Asjin Events Team',
     date: '2024-01-15',
     readTime: '5 min',
@@ -63,7 +63,7 @@ const blogPosts = [
       <h2>Final Tips</h2>
       <p>Remember, a beautiful wedding is about celebrating love, not about how much you spend. Focus on creating meaningful moments and memories that will last a lifetime. With proper planning, you can have a stunning wedding in Nagercoil without overspending.</p>
     `,
-    image: 'https://images.pexels.com/photos/3585810/pexels-photo-3585810.jpeg',
+    image: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756318960/wed_4_ysydxn.jpg',
     author: 'Asjin Events Team',
     date: '2024-01-10',
     readTime: '7 min',
@@ -94,7 +94,7 @@ const blogPosts = [
       <h2>Choosing the Right Venue</h2>
       <p>Consider factors like guest capacity, accessibility, parking, catering facilities, and decoration policies when selecting your venue. Visit potential venues in person and discuss your specific requirements with the management.</p>
     `,
-    image: 'https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg',
+    image: 'https://res.cloudinary.com/dszxkjpev/image/upload/v1756318966/wed_6_tbosvx.jpg',
     author: 'Asjin Events Team',
     date: '2024-01-05',
     readTime: '6 min',
