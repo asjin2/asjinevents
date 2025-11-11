@@ -1,18 +1,11 @@
-import { Metadata } from 'next';
+import React from 'react';
 
-export const metadata: Metadata = {
-  title: 'Wedding Planning Blog - Asjin Events',
-  description: 'Expert tips, trends, and insights for planning your perfect wedding in Nagercoil and Kanyakumari district.',
-  openGraph: {
-    title: 'Wedding Planning Blog - Asjin Events',
-    description: 'Expert tips, trends, and insights for planning your perfect wedding in Nagercoil and Kanyakumari district.',
-  },
-};
-
+// This layout will wrap both the blog list and individual blog posts.
+// It must accept and render the `children` prop.
 export default function BlogLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return <>{children}</>;
 }
