@@ -5,6 +5,7 @@ import Navigation from '@/components/layout/Navigation';
 import Footer from '@/components/layout/Footer';
 import FloatingButtons from '@/components/ui/FloatingButtons';
 import { Toaster } from '@/components/ui/sonner';
+import Script from 'next/script'; // ✅ GA: added
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -34,7 +35,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://asjinevents.xyz',
     title: 'Wedding Decor Nagercoil | Best Event Decorators Kanyakumari | Asjin Events',
-    description: '⭐ #1 Wedding Decorators in Nagercoil | 500+ Happy Couples | Mandap Decorations & Event Planning in Kanyakumari District',
+    description: '⭐ #1 Wedding Decorators in Nagercoil | Best Event Decorators Kanyakumari | Asjin Events',
     siteName: 'Asjin Events',
     images: [
       {
@@ -48,7 +49,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Wedding Decor Nagercoil | Best Event Decorators Kanyakumari',
-    description: '⭐ #1 Wedding Decorators in Nagercoil | 500+ Happy Couples | Call +91-8903821128',
+    description: '⭐ #1 Wedding Decorators in Nagercoil | Best Event Decorators Kanyakumari | Asjin Events',
     images: ['/og-image.jpg'],
   },
   robots: {
@@ -87,11 +88,29 @@ export default function RootLayout({
         <meta name="format-detection" content="telephone=yes" />
         <meta name="theme-color" content="#9333ea" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
         <link rel="dns-prefetch" href="//images.pexels.com" />
         <link rel="dns-prefetch" href="//res.cloudinary.com" />
       </head>
       <body className={inter.className}>
+        {/* ✅ Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-R809PVV3FL"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-R809PVV3FL');
+          `}
+        </Script>
+
         <Navigation />
         <main className="min-h-screen">
           {children}
